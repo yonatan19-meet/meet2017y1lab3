@@ -1,0 +1,8 @@
+print("person 1, how old are you?")
+age1 = input()
+print("person 2, how old are you?")
+age2 = input()
+print(int(age1) + int(age2))
+if age1 == age2:
+    print("yay!")
+    
